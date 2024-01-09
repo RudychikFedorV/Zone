@@ -1,0 +1,48 @@
+.VirtualReality {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+
+  &__title {
+    max-width: 546px;
+    text-shadow: $text-shadow-1;
+    font: var(--DM-58);
+    line-height: 84px;
+    margin-bottom: 29px;
+
+    letter-spacing: 1.16px;
+    background: var(
+      --Gd,
+      linear-gradient(90deg, #2563eb 0.11%, #d946ef 58.65%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &__info {
+    max-width: 534px;
+    color: $white-2;
+    text-shadow: $text-shadow-1;
+    font: var(--DM-15);
+    line-height: 30px;
+  }
+  &__block {
+    padding: 31px 0;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  .btn {
+    padding: 20px 40px;
+    border-radius: 6px;
+    background: var(
+      --Gardient,
+      linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)
+    );
+  }
+  &__button,
+  &__video {
+    color: $white-1;
+    font: var(--DM-16);
+  }
+}
