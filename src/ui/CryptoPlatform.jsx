@@ -7,7 +7,7 @@ const CryptoPlatform = () => {
   return (
     <div className="OurService-sections__crypto background texts">
       <Link to={"/"}>
-        <div className="OurService-sections__svg">
+        <div className="OurService-sections__svg SVG">
           <img src={crypto} alt="Crypto Platform" />
         </div>
       </Link>

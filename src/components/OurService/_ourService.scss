@@ -1,5 +1,8 @@
 .OurService {
   &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: $white;
     font: var(--DM-42);
     margin-bottom: 30px;
@@ -7,9 +10,36 @@
   &__informations {
     max-width: 587px;
     color: $white;
+    margin-inline: auto;
     text-align: center;
     font: var(--DM-16-4);
     line-height: 26px;
     margin-bottom: 40px;
+  }
+  .OurService-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding-bottom: 120px;
+  }
+  .background {
+    padding: 37px 23px 30px 23px;
+    max-width: 370px;
+    flex-shrink: 0;
+    border-radius: 34px;
+    border: $border-1;
+    background: $background-1;
+    box-shadow: $box-shadow-1;
+  }
+  .SVG {
+    // max-width: 38px;
+    // max-height: 38px;
+    // flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19px;
+    padding: 18px;
+    border-radius: 55px;
+    background: var(--2, linear-gradient(180deg, #d97f95 0%, #923250 100%));
   }
 }

@@ -7,7 +7,7 @@ const SocialAssistant = () => {
   return (
     <div className="OurService-sections__social background texts">
       <Link to={"/"}>
-        <div className="OurService-sections__svg">
+        <div className="OurService-sections__svg SVG">
           <img src={social} alt="Social Assistant" />
         </div>
       </Link>

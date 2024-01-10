@@ -7,7 +7,7 @@ const SmartTrading = () => {
   return (
     <div className="OurService-sections__smart background texts">
       <Link to={"/"}>
-        <div className="OurService-sections__svg">
+        <div className="OurService-sections__svg SVG">
           <img src={smart} alt="Smart Trading Modules" />
         </div>
       </Link>
