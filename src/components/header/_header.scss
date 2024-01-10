@@ -1,7 +1,8 @@
 .zone-header {
   display: flex;
-  gap: 418px;
   padding-top: 43px;
+  position: relative;
+  align-items: center;
 
   &__logo {
     display: flex;
@@ -10,6 +11,8 @@
   }
   &__navigation {
     display: flex;
+    position: absolute;
+    right: 0;
     gap: 60px;
     align-items: center;
   }

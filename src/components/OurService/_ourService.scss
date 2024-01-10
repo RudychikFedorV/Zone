@@ -1,0 +1,15 @@
+.OurService {
+  &__title {
+    color: $white;
+    font: var(--DM-42);
+    margin-bottom: 30px;
+  }
+  &__informations {
+    max-width: 587px;
+    color: $white;
+    text-align: center;
+    font: var(--DM-16-4);
+    line-height: 26px;
+    margin-bottom: 40px;
+  }
+}

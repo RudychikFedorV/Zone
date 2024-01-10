@@ -1,14 +1,27 @@
 .VirtualReality {
   display: flex;
-  align-items: center;
   gap: 28px;
+  margin-bottom: 127px;
+
+  @include desktop-small {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 0px;
+  }
 
   &__title {
+    padding-top: 208px;
     max-width: 546px;
     text-shadow: $text-shadow-1;
     font: var(--DM-58);
     line-height: 84px;
     margin-bottom: 29px;
+
+    @include desktop-small {
+      padding-top: 108px;
+    }
 
     letter-spacing: 1.16px;
     background: var(
