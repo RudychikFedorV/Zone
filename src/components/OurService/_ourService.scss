@@ -16,30 +16,50 @@
     line-height: 26px;
     margin-bottom: 40px;
   }
-  .OurService-sections {
+  &__sections {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    padding-bottom: 120px;
   }
   .background {
-    padding: 37px 23px 30px 23px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 23px;
     max-width: 370px;
     flex-shrink: 0;
     border-radius: 34px;
     border: $border-1;
     background: $background-1;
-    box-shadow: $box-shadow-1;
   }
-  .SVG {
-    // max-width: 38px;
-    // max-height: 38px;
-    // flex-shrink: 0;
+  &__sections-svg {
     display: flex;
     justify-content: center;
-    margin-bottom: 19px;
+    align-items: center;
     padding: 18px;
     border-radius: 55px;
-    background: var(--2, linear-gradient(180deg, #d97f95 0%, #923250 100%));
+    background: var(--5, linear-gradient(180deg, #BC7FD9 0%, #923283 100%));
+    margin-bottom: 19px;
+  }
+  &__sections-title {
+    margin-inline: auto;
+    color: $white;
+    font: var(--DM-24);
+    margin-bottom: 17px;
+  }
+  &__sections-info {
+    color: $white;
+    font: var(--DM-16-4);
+    margin-bottom: 17px;
+    line-height: 26px;
+  }
+  &__sections-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  &__sections-learn {
+    color: $white;
+    font: var(--DM-16-4);
   }
 }

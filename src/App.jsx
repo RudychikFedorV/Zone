@@ -1,6 +1,7 @@
 import Header from "./components/header/Header";
 import OurService from "./components/OurService/OurService";
 import VirtualReality from "./components/VirtualReality/VirtualReality";
+import WeComplete from "./components/WeComplete/WeComplete";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Header />
         <VirtualReality />
         <OurService />
+        <WeComplete />
       </div>
     </div>
   );

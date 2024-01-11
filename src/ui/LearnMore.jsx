@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 const LearnMore = () => {
   return (
     <Link to={"/"}>
-      <div className="OurService-sections__block">
-        <div className="OurService-sections__learn">Learn more</div>
-        <div className="OurService-sections__arrow">
+      <div className="OurService__sections-block">
+        <div className="OurService__sections-learn">Learn more</div>
+        <div className="OurService__sections-arrow">
           <img src={arrow} alt="Arrow" />
         </div>
       </div>
