@@ -21,7 +21,7 @@ const OurService = () => {
 
         <div className="OurService__sections-order background">
           <Link to={"/"}>
-            <div className="OurService__sections-svg">
+            <div className="OurService__sections-svg1 svg">
               <img src={order} alt="Order Management" />
             </div>
           </Link>
@@ -35,7 +35,7 @@ const OurService = () => {
 
         <div className="OurService__sections-social background">
           <Link to={"/"}>
-            <div className="OurService__sections-svg">
+            <div className="OurService__sections-svg2 svg">
               <img src={social} alt="Social Assistant" />
             </div>
           </Link>
@@ -49,7 +49,7 @@ const OurService = () => {
 
         <div className="OurService__sections-crypto background">
           <Link to={"/"}>
-            <div className="OurService__sections-svg">
+            <div className="OurService__sections-svg3 svg">
               <img src={crypto} alt="Crypto Platform" />
             </div>
           </Link>
@@ -63,7 +63,7 @@ const OurService = () => {
 
         <div className="OurService__sections-smart background texts">
           <Link to={"/"}>
-            <div className="OurService__sections-svg">
+            <div className="OurService__sections-svg4 svg">
               <img src={smart} alt="Smart Trading Modules" />
             </div>
           </Link>
@@ -79,7 +79,7 @@ const OurService = () => {
 
         <div className="OurService__sections-analyzer background texts">
           <Link to={"/"}>
-            <div className="OurService__sections-svg">
+            <div className="OurService__sections-svg5 svg">
               <img src={analyzer} alt="Analyzer of the News" />
             </div>
           </Link>
@@ -93,7 +93,7 @@ const OurService = () => {
 
         <div className="OurService__sections-module background">
           <Link to={"/"}>
-            <div className="OurService__sections-svg">
+            <div className="OurService__sections-svg6 svg">
               <img src={module} alt="Module of Price Notification" />
             </div>
           </Link>

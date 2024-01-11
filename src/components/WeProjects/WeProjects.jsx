@@ -1,18 +1,18 @@
 import React from "react";
-import foto from "../../assets/WeComplete/foto.png";
 import WeCompleteBlock from "../../ui/WeCompleteBlock";
+import foto from "../../assets/WeProjects/foto.png";
 
-const WeComplete = () => {
+const WeProjects = () => {
   return (
     <div className="WeComplete">
       <div className="WeComplete__sections">
+        <WeCompleteBlock />
         <div className="WeComplete__img">
           <img src={foto} alt="foto" />
         </div>
-        <WeCompleteBlock />
       </div>
     </div>
   );
 };
 
-export default WeComplete;
+export default WeProjects;

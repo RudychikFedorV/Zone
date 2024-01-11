@@ -1,0 +1,39 @@
+.WeComplete {
+  margin-top: 120px;
+  &__sections {
+    display: flex;
+    gap: 35px;
+  }
+  &__img {
+    max-width: 588px;
+    flex-shrink: 0;
+  }
+  &__block {
+    max-width: 582px;
+    margin-top: 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  &__block-title {
+    color: $white;
+    font: var(--DM-42);
+  }
+  &__block-info {
+    color: $white;
+    font: var(--DM-16-4);
+    line-height: 26px;
+  }
+  &__block-btn {
+    color: $white;
+    font: var(--DM-14-4);
+    line-height: 26px;
+
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    padding: 7px 14px;
+    border-radius: 4px;
+    background: $background-2;
+  }
+}
