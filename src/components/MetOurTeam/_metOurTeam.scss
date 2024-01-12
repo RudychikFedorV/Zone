@@ -1,0 +1,23 @@
+.MetOurTeam {
+  margin-top: 107px;
+
+  &__title {
+    color: $white;
+    font: var(--DM-42);
+    margin-bottom: 30px;
+  }
+  &__info {
+    max-width: 480px;
+    flex-shrink: 0;
+    color: $white;
+    text-align: center;
+    font: var(--DM-16-4);
+    margin-bottom: 40px;
+  }
+  &__sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  
+}
