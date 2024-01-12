@@ -1,0 +1,56 @@
+.SubscribeNews {
+  padding-top: 50px;
+  max-width: 1170px;
+  flex-shrink: 0;
+  border-radius: 34px;
+  border: $border-1;
+  background: $background-4;
+  box-shadow: $box-shadow-1;
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    text-align: center;
+    font: var(--DM-42);
+    margin-bottom: 13px;
+  }
+  &__info {
+    color: $white;
+    text-align: center;
+    font: var(--DM-16-4);
+    line-height: 30px;
+    margin-bottom: 29px;
+  }
+  &__input {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-inline: auto;
+    max-width: 860px;
+    flex-shrink: 0;
+    border-radius: 70px;
+    background: $background-5;
+
+    &::placeholder {
+        color: $background-5;
+      }
+
+    button {
+      padding: 15px 30px;
+      gap: 8px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      border: 0;
+      outline: 0;
+      max-width: 196px;
+      flex-shrink: 0;
+      border-radius: 70px;
+      opacity: 0.9;
+      background: $background-6;
+    }
+  }
+}

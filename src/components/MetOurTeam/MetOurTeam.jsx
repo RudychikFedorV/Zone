@@ -16,46 +16,46 @@ const MetOurTeam = () => {
       </div>
       <div className="MetOurTeam__sections">
         <div className="MetOurTeam__sunny background">
-          <div className="MetOurTeam__sunny-img">
+          <div className="MetOurTeam__sunny-img img">
             <Link to={"/"}>
               <img src={sunny} alt="Sunny Khan" />
             </Link>
           </div>
-          <div className="MetOurTeam__sunny-title">Sunny Khan</div>
-          <div className="MetOurTeam__sunny-text">Executive officer</div>
+          <div className="MetOurTeam__sunny-title title">Sunny Khan</div>
+          <div className="MetOurTeam__sunny-text text">Executive officer</div>
           <MetOurTeamAcons />
         </div>
 
         <div className="MetOurTeam__alina background">
-          <div className="MetOurTeam__alina-img">
+          <div className="MetOurTeam__alina-img img">
             <Link to={"/"}>
               <img src={alina} alt="Alina Jesia" />
             </Link>
           </div>
-          <div className="MetOurTeam__alina-title">Alina Jesia</div>
-          <div className="MetOurTeam__alina-text">UX/UI DESIGNER</div>
+          <div className="MetOurTeam__alina-title title">Alina Jesia</div>
+          <div className="MetOurTeam__alina-text text">UX/UI DESIGNER</div>
           <MetOurTeamAcons />
         </div>
 
         <div className="MetOurTeam__alex background">
-          <div className="MetOurTeam__alex-img">
+          <div className="MetOurTeam__alex-img img">
             <Link to={"/"}>
               <img src={alex} alt="Alex Sohag" />
             </Link>
           </div>
-          <div className="MetOurTeam__alex-title">Alex Sohag</div>
-          <div className="MetOurTeam__alex-text">BUSINESS DEVELOPMENT</div>
+          <div className="MetOurTeam__alex-title title">Alex Sohag</div>
+          <div className="MetOurTeam__alex-text text">BUSINESS DEVELOPMENT</div>
           <MetOurTeamAcons />
         </div>
 
         <div className="MetOurTeam__afroza background">
-          <div className="MetOurTeam__afroza-img">
+          <div className="MetOurTeam__afroza-img img">
             <Link to={"/"}>
               <img src={afroza} alt="Afroza Mou" />
             </Link>
           </div>
-          <div className="MetOurTeam__afroza-title">Afroza Mou</div>
-          <div className="MetOurTeam__afroza-text">Head of marketing</div>
+          <div className="MetOurTeam__afroza-title title">Afroza Mou</div>
+          <div className="MetOurTeam__afroza-text text">Head of marketing</div>
           <MetOurTeamAcons />
         </div>
       </div>

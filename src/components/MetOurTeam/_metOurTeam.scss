@@ -1,12 +1,17 @@
 .MetOurTeam {
   margin-top: 107px;
+  padding-bottom: 120px;
 
   &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: $white;
     font: var(--DM-42);
     margin-bottom: 30px;
   }
   &__info {
+    margin-inline: auto;
     max-width: 480px;
     flex-shrink: 0;
     color: $white;
@@ -19,5 +24,35 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
   }
-  
+  .background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    max-width: 270px;
+    flex-shrink: 0;
+    border-radius: 34px;
+    border: $border-1;
+    background: $background-3;
+  }
+  .img {
+    max-width: 90.642px;
+    flex-shrink: 0;
+  }
+  .title {
+    color: $white;
+    font: var(--DM-28);
+    margin-bottom: 7px;
+  }
+  .text {
+    color: $white;
+    font: var(--DM-16-4);
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+  }
+  &__acons {
+    display: flex;
+    gap: 12px;
+  }
 }
