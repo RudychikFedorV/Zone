@@ -1,8 +1,24 @@
 .InfoSection {
-    padding-top: 100px;
+  padding-top: 100px;
 
-    &__contacts {
-        display: flex;
-        
+  .InfoSection-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &__logo {
+      margin-bottom: 20px;
     }
+    &__location {
+      display: flex;
+      gap: 7px;
+      align-items: center;
+    }
+    &__info {
+      color: $white-3;
+      font:var(--DM-16-4);
+      line-height: 32px; 
+      
+    }
+  }
 }
