@@ -1,5 +1,6 @@
 .SubscribeNews {
   padding-top: 50px;
+  padding-bottom: 38px;
   max-width: 1170px;
   flex-shrink: 0;
   border-radius: 34px;
@@ -24,7 +25,7 @@
     margin-bottom: 29px;
   }
   &__input {
-    padding: 10px;
+    padding: 10px 10px 10px 44px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -35,8 +36,8 @@
     background: $background-5;
 
     &::placeholder {
-        color: $background-5;
-      }
+      color: $background-5;
+    }
 
     button {
       padding: 15px 30px;
@@ -52,5 +53,20 @@
       opacity: 0.9;
       background: $background-6;
     }
+  }
+  input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: $white;
+    font: var(--Rubik-18);
+    line-height: 30px;
+  }
+  &__text {
+    text-align: center;
+    color: $white;
+    font: var(--Rubik-20);
+    line-height: 30px;
   }
 }

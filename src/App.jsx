@@ -1,4 +1,5 @@
 import Header from "./components/header/Header";
+import InfoSection from "./components/InfoSection/InfoSection";
 import MetOurTeam from "./components/MetOurTeam/MetOurTeam";
 import OurService from "./components/OurService/OurService";
 import SubscribeNews from "./components/SubscribeNews/SubscribeNews";
@@ -17,6 +18,7 @@ function App() {
         <WeProjects />
         <MetOurTeam />
         <SubscribeNews />
+        <InfoSection />
       </div>
     </div>
   );
