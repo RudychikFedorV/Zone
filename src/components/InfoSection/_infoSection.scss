@@ -3,12 +3,19 @@
   display: flex;
   justify-content: space-between;
 
+  @include desktop-small {
+   
+  }
+  @include tablet-small {
+    flex-direction: column;
+    gap: 40px;
+  }
+
   .InfoSection-contacts {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-bottom: 33px;
-
     &__logo {
       margin-bottom: 20px;
     }
@@ -21,6 +28,16 @@
       color: $white-3;
       font: var(--DM-16-4);
       line-height: 32px;
+    }
+    @include desktop-small {
+      // flex-direction: row;
+      // justify-content: space-between;
+      // align-items: center;
+      flex-shrink: 0;
+    }
+    @include tablet {
+      grid-template-columns: 1fr;
+      // align-items: center;
     }
   }
   .InfoSection-sections {
@@ -40,6 +57,13 @@
       font: var(--DM-18-4);
       line-height: 40px;
       letter-spacing: 0.18px;
+    }
+
+    @include desktop-small {
+      
+    }
+    @include tablet {
+
     }
   }
 }

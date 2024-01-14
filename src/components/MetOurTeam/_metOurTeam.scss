@@ -30,6 +30,10 @@
       align-items: center;
       flex-shrink: 0;
     }
+    @include tablet {
+      grid-template-columns: 1fr;
+      align-items: center;
+    }
   }
   .background {
     display: flex;

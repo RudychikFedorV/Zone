@@ -12,6 +12,11 @@
     justify-content: space-between;
     padding-bottom: 33px;
 
+    @include tablet-small {
+      flex-direction: column;
+      gap: 20px;
+    }
+
     &__text {
       color: $white-3;
       font: var(--Rubik-14);
