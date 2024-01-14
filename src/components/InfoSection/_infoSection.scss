@@ -1,5 +1,7 @@
 .InfoSection {
   padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
 
   .InfoSection-contacts {
     display: flex;
@@ -16,9 +18,27 @@
     }
     &__info {
       color: $white-3;
-      font:var(--DM-16-4);
-      line-height: 32px; 
-      
+      font: var(--DM-16-4);
+      line-height: 32px;
+    }
+  }
+  .InfoSection-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    &__texts {
+      color: $white-3;
+      font: var(--DM-18);
+      line-height: 40px;
+      letter-spacing: 0.18px;
+    }
+
+    &__text {
+      color: $white-3;
+      font: var(--DM-18-4);
+      line-height: 40px;
+      letter-spacing: 0.18px;
     }
   }
 }

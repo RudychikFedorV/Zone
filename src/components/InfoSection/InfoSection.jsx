@@ -45,13 +45,37 @@ const InfoSection = () => {
         </div>
       </div>
 
-      <div className="InfoSection__service"></div>
+      <div className="InfoSection-sections">
+        <Link to={"/"}><div className="InfoSection-sections__texts">Service</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">Order Management</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">Social Assistant</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">Crypto Platform</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">Analyzer of the News</div></Link>
+      </div>
 
-      <div className="InfoSection__company"></div>
+      <div className="InfoSection-sections">
+        <Link to={"/"}><div className="InfoSection-sections__texts">Company</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">About Us</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">News</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">Our trusted partner</div></Link>
+       <Link to={"/"}> <div className="InfoSection-sections__text">New users FAQ</div></Link>
+      </div>
 
-      <div className="InfoSection__supports"></div>
+      <div className="InfoSection-sections">
+        <Link to={"/"}><div className="InfoSection-sections__texts">Supports</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">Help center</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">Feedbcak</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">Contact us</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">Terms conditins</div></Link>
+      </div>
 
-      <div className="InfoSection__resources"></div>
+      <div className="InfoSection-sections">
+        <Link to={"/"}><div className="InfoSection-sections__texts">Resources</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">Download app</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">Blog</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">What’s new</div></Link>
+        <Link to={"/"}><div className="InfoSection-sections__text">Sitemap</div></Link>
+      </div>
     </div>
   );
 };
