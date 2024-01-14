@@ -24,10 +24,7 @@
     }
 
     letter-spacing: 1.16px;
-    background: var(
-      --Gd,
-      linear-gradient(90deg, #2563eb 0.11%, #d946ef 58.65%)
-    );
+    background: $background-8;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -46,13 +43,11 @@
     align-items: center;
   }
   .btn {
-    padding: 20px 40px;
+    padding: 12px 24px;
     border-radius: 6px;
-    background: var(
-      --Gardient,
-      linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)
-    );
+    background: $background-6;
   }
+  
   &__button,
   &__video {
     color: $white-1;

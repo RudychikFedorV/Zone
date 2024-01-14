@@ -5,7 +5,7 @@ import HeaderLogo from "../../ui/HeaderLogo";
 const Header = () => {
   return (
     <div className="zone-header">
-      <HeaderLogo />
+        <HeaderLogo />
       <div className="zone-header__navigation">
         <Link to={"/"} className="color">Home</Link>
         <Link to={"/"} className="color">About Us</Link>

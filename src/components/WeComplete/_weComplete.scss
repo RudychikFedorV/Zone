@@ -3,6 +3,14 @@
   &__sections {
     display: flex;
     gap: 35px;
+
+    @include desktop-small {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-shrink: 0;
+      
+    }
   }
   &__img {
     max-width: 588px;

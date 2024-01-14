@@ -1,7 +1,7 @@
 .zone-header {
   display: flex;
   padding-top: 43px;
-  position: relative;
+  justify-content: space-between;
   align-items: center;
 
   &__logo {
@@ -11,22 +11,29 @@
   }
   &__navigation {
     display: flex;
-    position: absolute;
-    right: 0;
     gap: 60px;
     align-items: center;
+
+    @include desktop-small {
+      gap: 40px;
+    }
   }
   .color {
     color: $white-1;
     font: var(--DM-14);
+    transition: var(--transition);
+
+    &:hover {
+      padding: 10px;
+      box-shadow: 0 0 10px $white-1;
+      border-radius: 5px;
+    }
   }
   .btn {
     padding: 12px 24px;
     border-radius: 5px;
-    background: var(
-      --Gardient,
-      linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)
-    );
+    background: $background-6;
+    
   }
   &__zone {
     color: $white;
