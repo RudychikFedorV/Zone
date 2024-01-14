@@ -58,7 +58,7 @@ const InfoSection = () => {
         <Link to={"/"}><div className="InfoSection-sections__text">About Us</div></Link>
         <Link to={"/"}><div className="InfoSection-sections__text">News</div></Link>
         <Link to={"/"}><div className="InfoSection-sections__text">Our trusted partner</div></Link>
-       <Link to={"/"}> <div className="InfoSection-sections__text">New users FAQ</div></Link>
+        <Link to={"/"}> <div className="InfoSection-sections__text">New users FAQ</div></Link>
       </div>
 
       <div className="InfoSection-sections">

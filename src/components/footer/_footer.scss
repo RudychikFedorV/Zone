@@ -1,0 +1,30 @@
+.Footer {
+  .Footer-span {
+    max-width: 1472px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.2;
+    background: $background-7;
+    margin-bottom: 33px;
+  }
+  .Footer-sections {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 33px;
+
+    &__text {
+      color: $white-3;
+      font: var(--Rubik-14);
+      line-height: 14px;
+    }
+    &__nav {
+      display: flex;
+      gap: 55px;
+    }
+    &__info {
+      color: $white-3;
+      font: var(--DM-14-4);
+      line-height: 14px;
+    }
+  }
+}

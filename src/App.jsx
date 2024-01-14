@@ -1,3 +1,4 @@
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import InfoSection from "./components/InfoSection/InfoSection";
 import MetOurTeam from "./components/MetOurTeam/MetOurTeam";
@@ -19,6 +20,7 @@ function App() {
         <MetOurTeam />
         <SubscribeNews />
         <InfoSection />
+        <Footer />
       </div>
     </div>
   );

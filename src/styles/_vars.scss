@@ -10,6 +10,7 @@ $mobile: 576px;
   --Rubik: "Rubik", sans-serif;
   --transition: 0.2s all ease-in-out;
 
+  --Rubik-14: 400 14px / normal var(--Rubik);
   --Rubik-18: 400 18px / normal var(--Rubik);
   --Rubik-20: 500 20px / normal var(--Rubik);
 
@@ -38,6 +39,7 @@ $background-3: linear-gradient(      268deg,      rgba(254, 254, 255, 0.03) -11.
 $background-4: var(--Bg, linear-gradient(180deg, rgba(254, 254, 255, 0.01) 0%, rgba(255, 255, 255, 0.02) 100%));
 $background-5: linear-gradient(180deg, rgba(254, 254, 255, 0.03) 0%, rgba(255, 255, 255, 0.05) 100%);
 $background-6: var(--Gardient,linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%));
+$background-7: #969696;
 $svg1:#8A7FD9;
 $svg2: var(--2, linear-gradient(180deg, #D97F95 0%, #923250 100%));
 $svg3: var(--3, linear-gradient(180deg, #84D8ED 0%, #4292BB 100%));
