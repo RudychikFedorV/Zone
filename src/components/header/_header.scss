@@ -43,4 +43,14 @@
     color: $white;
     font: var(--Rubik-20);
   }
+
+  .icon-menu,
+.icon-close {
+	cursor: pointer;
+	display: none;
+
+	@include tablet {
+		display: inline-block;
+	}
+}
 }
